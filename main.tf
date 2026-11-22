@@ -13,7 +13,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_s3_bucket" "demo" {
+resource "aws_s3_bucket" "demo1" {
   bucket_prefix = "tf-lock-demo-"
 
   tags = {
